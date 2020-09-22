@@ -1,9 +1,5 @@
 package goosegame.i18n;
 
-/**
- *
- * @author ScumpinatoS
- */
 public class English {
 
     public static final String CHOOSE_BOARD_GAME = "What kind of games do you want to play?\n\t1. Normal Game\n\t2. Scam Game";

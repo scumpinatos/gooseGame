@@ -1,9 +1,5 @@
 package goosegame.models;
 
-/**
- *
- * @author Postazione B3
- */
 public class NormalBoard extends Board {
 
     public NormalBoard() {

@@ -2,10 +2,6 @@ package goosegame.models;
 
 import java.util.Objects;
 
-/**
- *
- * @author Postazione B3
- */
 public class Player {
 
     private String nickname;

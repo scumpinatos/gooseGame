@@ -1,9 +1,5 @@
 package goosegame.i18n;
 
-/**
- *
- * @author ScumpinatoS
- */
 public abstract class Strings {
 
     public static String languageClass = "goosegame.i18n.English";
