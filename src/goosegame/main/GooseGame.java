@@ -117,7 +117,7 @@ public class GooseGame {
                 String player = commands[1];
                 Player p = board.getPlayerFromNickname(player);
                 if (p == null) {
-                    System.out.println(String.format(Strings.get(Strings.ERROR_PLAYER_NOT_FOUND), p.getNickname()));
+                    System.out.println(String.format(Strings.get(Strings.ERROR_PLAYER_NOT_FOUND), player));
                 } else {
                     board.setStatus(Board.BOARD_STATUS_RUNNING);
                     int prevPos = p.getPosition();
