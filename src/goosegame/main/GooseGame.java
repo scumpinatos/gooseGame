@@ -186,7 +186,7 @@ public class GooseGame {
                     });
                     try {
                         Thread.sleep(1000);
-                    } catch (Exception ex) {
+                    } catch (InterruptedException ex) {
                     }
                 }
             default:
