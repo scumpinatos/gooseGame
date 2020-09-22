@@ -10,7 +10,7 @@ public abstract class Strings {
     public static final String CHOOSE_BOARD_GAME = "CHOOSE_BOARD_GAME";
     public static final String WELCOME = "WELCOME";
     public static final String CHOOSE_LANGUAGE = "CHOOSE_LANGUAGE";
-    public static final String WARNING_VALORE_SCELTA_LINGUA = "WARNING_LANGUAGE";
+    public static final String WARNING_LANGUAGE = "WARNING_LANGUAGE";
     public static final String WARNING_LANGUAGE_NOT_NUMERICAL = "WARNING_LANGUAGE_NOT_NUMERICAL";
     public static final String WARNING_NUMERICAL_VALUE_BETWEEN = "WARNING_NUMERICAL_VALUE_BETWEEN";
     public static final String EMPTY_LINE = "EMPTY_LINE";

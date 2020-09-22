@@ -20,11 +20,11 @@ public class GooseGame {
         while (true) {
             System.out.println(Strings.get(Strings.CHOOSE_LANGUAGE));
 
-            String language = CMDUtils.getLine("> ");
+            String language = CMDUtils.getLine(null);
             try {
                 int choice = Integer.parseInt(language);
                 if (choice < 1 || choice > 2) {
-                    System.out.println(Strings.get(Strings.WARNING_VALORE_SCELTA_LINGUA));
+                    System.out.println(Strings.get(Strings.WARNING_LANGUAGE));
                 } else {
                     switch (choice) {
                         case 1:
@@ -43,7 +43,7 @@ public class GooseGame {
 
         while (true) {
             System.out.println(Strings.get(Strings.CHOOSE_BOARD_GAME));
-            String typeOfGame = CMDUtils.getLine("> ");
+            String typeOfGame = CMDUtils.getLine(null);
             try {
                 int choice = Integer.parseInt(typeOfGame);
                 if (choice < 1 || choice > 2) {
@@ -66,7 +66,7 @@ public class GooseGame {
         board.init();
 
         while (true) {
-            String input = CMDUtils.getLine("> ");
+            String input = CMDUtils.getLine(null);
             analyzeInput(input);
         }
     }

@@ -18,7 +18,7 @@ public class Italian {
     public static final String ERROR_ADD_COMMAND = "Attenzione! Comando non riconosciuto. Dopo la keyword 'add' è concesso solo l'utilizzo della keyword 'player'.";
     public static final String ERROR_PLAYER_NOT_FOUND = "Attenzione! Illegal move! Il player %s non esiste sulla board!";
     public static final String ERROR_ROLL = "Attenzione! Valore non corretto nel lancio del dado %s!";
-    public static final String ROLL = "%s lancia i dadi %s, %s.";
+    public static final String ROLL = "%s lancia i dadi %s, %s. ";
     public static final String BOUNCES = "%s rimbalza! %s torna a %s";
     public static final String MOVE = "%s muove da %s a %s";
     public static final String GOOSE = ", l'Oca. %s muove di nuovo e va a %s";
